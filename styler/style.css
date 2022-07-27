@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+body {
+    background-color: #FFFE77;
+    text-align: center;
+}
+
+.circle {
+    height: 250px;
+    width: 300px;
+    background-color: #ffe18dbd;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+#circle1 {
+    top: 90px;
+    right: 115px;
+}
+
+#circle2 {
+    top: 190px;
+    left: 50px;
+    background-color: #ffd04e63;
+}
+
+img {
+    width: 90%;
+    position: relative;
+}
+
+h1, h2 {
+    font-family: "Schoolbell";
+    text-align: center;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 15px;
+    cursor: pointer;
+}
