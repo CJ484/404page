@@ -22,9 +22,11 @@
       <h3>Refresh</h3>
     </button>
     <script>
-      $("button").click(function() {
-        console.log("Test Complete");
-      });
+      $(document).click(function(e) {
+        if ( $(e.currentTarget ).is(":button")) {
+          console.log("Test Complete");
+        }})
+        
     </script>
   </body>
 </html>
