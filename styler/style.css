@@ -36,7 +36,17 @@ h1, h2 {
 }
 
 button {
-    background-color: aqua;
-    border-radius: 15px;
+    background-color: #FFFE77;
+    border: 2px solid #fed029;
+    padding: 5px 20px;
+    border-radius: 25px;
     cursor: pointer;
+    transition: all 200ms ease-in-out
 }
+
+button:hover {
+    background-color:#fed029;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 0 rgba(0,0,0,0.2);
+}
+
